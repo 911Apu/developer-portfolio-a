@@ -1,15 +1,19 @@
 *{ margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* nav and header style */
+
+
 .header{
     background: #FFF8F3;
     background-image: url(/images/header_bg.png),url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    
 }
-/* nav and header style */
+
 nav{
+
     margin: 50px 200px;
    
     display: flex;
@@ -33,6 +37,7 @@ nav ul{
    font-size: 45px;
    font-weight: 800px;
 }
+/* banner styles */
 .text-primary{
     color: #FD6E0A;
     font-weight: 700;
@@ -69,6 +74,7 @@ margin-bottom: 15px;
     margin-bottom: 15px;
    
 }
+/* about section styles */
 .section-title{
     text-align: center;
     font-weight: 700;
@@ -109,3 +115,135 @@ text-align: center;
     font-size: 20px;
     color: #474747;
 }
+/* what i do section */
+
+
+.what-i-do-container{
+    text-align: center;
+}
+.section-title{
+    font-weight: 700;
+font-size: 35px;
+color: #181818;
+margin-bottom: 30px;
+}
+.what-i-do-paragraph{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+}
+.skill-container{
+    display: flex;
+    margin-top: 60px;
+    
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+}
+.info-title{
+    font-weight: 700;
+font-size: 20px;
+color: #181818;
+
+margin-bottom: 20px;
+}
+.info{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+justify-content: space-between;
+padding: 80px 30px;
+}
+.info-paragraph{
+    font-size: 16px;
+    color: #757575;
+}
+/* resume section styles */
+.resume-content{
+    display: flex;
+   
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.section-title{
+    margin-top: 130px;
+}
+.experience-item{
+
+}
+.education-item{
+
+}
+.education-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.experience-title{
+    font-weight: 700;
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+.experience-sub-title{
+    
+}
+.education-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #757575;
+
+}
+.experience-paragraph{
+    font-size: 16px;
+    color: #757575;
+    
+}
+.education-paragraph{
+    font-size: 16px;
+    color: #757575;
+    
+}
+.btn-skill{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+/* contact section styles */
+.contact{
+ display: flex;
+   padding: 130px 200px;
+   background: #FFF8F3;
+   gap: 100px;
+}
+.c-section-title{
+    font-weight: 700;
+font-size: 35px;
+margin-bottom: 20px;
+   
+}
+.contact-paragraph{
+    font-size: 16px;
+    color: #474747;
+ margin-bottom: 30px;
+ 
+}
+.form-section-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    height: 64px;
+    width: 100%;
+    padding: 10px 15px;
+}
+.contact a{
+    text-decoration: none;
+}
+
