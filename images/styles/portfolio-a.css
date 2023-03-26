@@ -246,4 +246,53 @@ margin-bottom: 20px;
 .contact a{
     text-decoration: none;
 }
-
+/* responsive styles */
+.header{
+    background-image: none;
+}
+@media  screen and (max-width:576px) {
+   .skill-container,
+    .resume-content,
+     .about-info-container, 
+     .contact, 
+     .banner{
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+   }
+   .about, .contact{
+    padding: 20px;
+   }
+.contact input, textarea{
+    padding: 0;
+}
+nav ul, nav{
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.banner{
+    margin: 0 20px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+}
+}
+@media screen and (min-width:577px)and (max-width:992px) {
+    .about, .contact{
+        padding: 20px;
+       }
+       .resume-content{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+       }
+       .contact{
+        flex-direction: column;
+        padding: 15px 25px;
+       }
+    }
+.hide{
+display: none;    
+}
